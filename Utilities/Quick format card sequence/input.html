@@ -1,0 +1,26 @@
+<html>
+<head>
+<title>Quick format card sequence</title>
+<style type="text/css">
+  .edit { border: 1px solid blue; font-size: 30pt; line-height: 150%; padding:1em; font-family: 'tahoma' sans-serif}
+</style>
+<script type="text/javascript" src="rangy-core.js"></script>
+<script type="text/javascript" src="rangy-selectionsaverestore.js"></script>
+<script type="text/javascript">
+  function act(id) {
+    var savedSel = rangy.saveSelection();
+    el=document.getElementById(id);
+    off=window.getSelection().anchorOffset;
+    el.innerHTML = el.innerHTML.replace(/(<font([^>]+)>)/ig,"");
+    el.innerHTML = el.innerHTML.replace(/([0-9jqka]+[hdsc])([0-9jqka]+[hdsc])/ig,"$1&nbsp;$2");
+    el.innerHTML = el.innerHTML.replace(/([0-9jqka]+[hd])/ig,"<font color='red'>$1</font>");
+    rangy.restoreSelection(savedSel);
+    return false;
+  }
+</script>
+</head>
+<body onload="document.getElementsByClassName('edit')[0].focus()">
+  <h1>Enter cards below, example: 10s kd</h1>
+  <div id="e1" class="edit" contentEditable="true" onkeyup="act('e1')"></div>
+</body>
+</html>
