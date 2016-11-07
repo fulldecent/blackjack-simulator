@@ -88,7 +88,7 @@ the exact spelling below. Contact me if you have seen other variations.
 
 -   `lsr` — late-surrender is allowed
 
-Typical house rules (source: Yui-Bin Chen, 1995):
+Typical house rules (source: [Yui-Bin Chen, 1995](https://groups.google.com/forum/#!topic/rec.gambling.blackjack/9CA7HYzl80s)):
 
 -   Las Vegas strip:
 
