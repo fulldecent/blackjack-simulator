@@ -12,15 +12,15 @@
     el=document.getElementById(id);
     off=window.getSelection().anchorOffset;
     el.innerHTML = el.innerHTML.replace(/(<font([^>]+)>)/ig,"");
-    el.innerHTML = el.innerHTML.replace(/([0-9jqka]+[hdsc])([0-9jqka]+[hdsc])/ig,"$1&nbsp;$2");
-    el.innerHTML = el.innerHTML.replace(/([0-9jqka]+[hd])/ig,"<font color='red'>$1</font>");
+    el.innerHTML = el.innerHTML.replace(/([0-9tjqka]+[hdsc])([0-9tjqka]+[hdsc])/ig,"$1&nbsp;$2");
+    el.innerHTML = el.innerHTML.replace(/([0-9tjqka]+[hd])/ig,"<font color='red'>$1</font>");
     rangy.restoreSelection(savedSel);
     return false;
   }
 </script>
 </head>
 <body onload="document.getElementsByClassName('edit')[0].focus()">
-  <h1>Enter cards below, example: 10s kd</h1>
+  <h1>Enter cards below, example: ts kd 4h</h1>
   <div id="e1" class="edit" contentEditable="true" onkeyup="act('e1')"></div>
 </body>
 </html>
