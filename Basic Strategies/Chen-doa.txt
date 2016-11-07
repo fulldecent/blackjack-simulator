@@ -1,0 +1,60 @@
+Yui-Bin Chen 1995
+https://groups.google.com/forum/#!topic/rec.gambling.blackjack/9CA7HYzl80shttps://groups.google.com/forum/#!topic/rec.gambling.blackjack/9CA7HYzl80s
+
+DOA (If D10, ignore unsuitable entries)
+S17 or H17
+DAS or no DAS
+no LSR (see Surrender section for more information)
+1-, 2-, 4-, 6-, or 8-deck
+
+               |<--------------------- Upcard ------------------>|
+Player's hand     2    3    4    5    6    7    8    9   10    A
+     A-A         spl  spl  spl  spl  spl  spl  spl  spl  spl  spl
+    10-10        ---  ---  ---  ---  ---  ---  ---  ---  ---  ---
+     9-9         spl  spl  spl  spl  spl  ---  spl  spl  ---  ---
+     8-8         spl  spl  spl  spl  spl  spl  spl  spl  spl  spl
+     7-7         spl  spl  spl  spl  spl  spl   *   ---  ---  ---
+     6-6         spl  spl  spl  spl  spl   *   ---  ---  ---  ---
+     5-5         ---  ---  ---  ---  ---  ---  ---  ---  ---  ---
+     4-4         ---  ---   *    *    *   ---  ---  ---  ---  ---
+     3-3          *    *   spl  spl  spl  spl   *   ---  ---  ---
+     2-2          *   spl  spl  spl  spl  spl  ---  ---  ---  ---
+
+     11          dbl  dbl  dbl  dbl  dbl  dbl  dbl  dbl  dbl  dbl
+     10          dbl  dbl  dbl  dbl  dbl  dbl  dbl  dbl  ---  ---
+      9          dbl  dbl  dbl  dbl  dbl  ---  ---  ---  ---  ---
+      8          ---  ---  ---  dbl  dbl  ---  ---  ---  ---  ---
+     A-8         ---  ---  ---  ---  dbl  ---  ---  ---  ---  ---
+     A-7         ---  dbl  dbl  dbl  dbl  ---  ---  ---  ---  ---
+     A-6         dbl  dbl  dbl  dbl  dbl  ---  ---  ---  ---  ---
+     A-5         ---  ---  dbl  dbl  dbl  ---  ---  ---  ---  ---
+     A-4         ---  ---  dbl  dbl  dbl  ---  ---  ---  ---  ---
+     A-3         ---  ---  dbl  dbl  dbl  ---  ---  ---  ---  ---
+     A-2         ---  ---  dbl  dbl  dbl  ---  ---  ---  ---  ---
+
+   Soft-19+      std  std  std  std  std  std  std  std  std  std
+   Soft-18       std  std  std  std  std  std  std  ---  ---  std
+   Soft-17-      ---  ---  ---  ---  ---  ---  ---  ---  ---  ---
+   Hard-17+      std  std  std  std  std  std  std  std  std  std
+   Hard-16       std  std  std  std  std  ---  ---  ---  ---  ---
+   Hard-15       std  std  std  std  std  ---  ---  ---  ---  ---
+   Hard-14       std  std  std  std  std  ---  ---  ---   #   ---
+   Hard-13       std  std  std  std  std  ---  ---  ---  ---  ---
+   Hard-12       ---  ---  std  std  std  ---  ---  ---  ---  ---
+
+   Note: * --- split if DAS
+         # --- stand on 7-7 against the dealer's 10 in a single-deck game
+         Do not take insurance
+
+ The Basic Strategy for LSR is listed below.
+
+ Single-deck:
+
+   Upcard = 10 : surrender 10-6, 9-7, 10-5, 9-6, and 7-7.
+   Upcard = Ace : surrender 10-6.
+
+ Multi-deck:
+
+   Upcard = 9 : surrender 10-6 and 9-7.
+   Upcard = 10 : surrender 10-6, 9-7, 10-5, 9-6, and 8-7.
+   Upcard = Ace : surrender 10-6 and 9-7.
